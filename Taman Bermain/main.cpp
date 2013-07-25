@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 #include <cstdlib>
 #include <stdio.h>
 #include <stdlib.h>
@@ -30,8 +34,11 @@ float t_kicir=0.0, t_kicir2=0.0;
 
 //cylinder
 GLUquadricObj *p = gluNewQuadric();
+<<<<<<< HEAD
 //mobil
 float gerak=0.0;
+=======
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 
 
 
@@ -1029,6 +1036,11 @@ void bus()
     glPopMatrix();
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 //PAGAR
 void pagar()
 {
@@ -2135,6 +2147,7 @@ void pagartaman()
     glPopMatrix();
 }
 
+<<<<<<< HEAD
 void mobil()
 {
     //Bodi
@@ -2293,6 +2306,8 @@ void mobil()
     glutSolidSphere(2, 10, 20);
     glPopMatrix();
 }
+=======
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 
 
 
@@ -2372,11 +2387,20 @@ glPopMatrix();
 	glPopMatrix();
 
 
+<<<<<<< HEAD
     //pohon sisi
    {
 	glPushMatrix();
 	glTranslatef(0,30,0);
 	glScalef(3, 3, 3);
+=======
+
+  for( int a = 70; a > -200; a = a - 40 )
+   {
+	glPushMatrix();
+	glTranslatef(-230,2,a);
+	glScalef(7, 7, 7);
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 	pohon();
 	glPopMatrix();
    }
@@ -2869,6 +2893,7 @@ glPopMatrix();
     glScalef(2, 2, 2);
     lampu();
     glPopMatrix();
+<<<<<<< HEAD
     }
 
     //dis mobil
@@ -2885,6 +2910,12 @@ glPopMatrix();
     glPopMatrix();
     }
 
+=======
+
+    }
+
+
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 for( int a = 200; a > -240; a = a - 60 )
     {
 
@@ -2893,12 +2924,24 @@ for( int a = 200; a > -240; a = a - 60 )
     glScalef(7, 7, 7);
     pohon();
     glPopMatrix();
+<<<<<<< HEAD
     }
 
+=======
+
+    }
+
+
+
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 	glutSwapBuffers();
 	glFlush();
 	rot++;
 	angle++;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 }
 
 
@@ -2964,6 +3007,11 @@ void init(void) {
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 	glTexImage2D(GL_TEXTURE_2D, 0, 3, gambar2->sizeX, gambar2->sizeY, 0, GL_RGB,
 			GL_UNSIGNED_BYTE, gambar2->data);
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
 }
 
 

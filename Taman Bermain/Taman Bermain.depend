@@ -264,6 +264,7 @@
 	<math.h>
 	"vec3f.h"
 
+<<<<<<< HEAD
 1374208879 source:c:\users\ruwi\downloads\tugasbesar_grafkom_if8-master\taman bermain\imageloader.cpp
 	<assert.h>
 	<fstream>
@@ -320,3 +321,5 @@
 	"imageloader.h"
 	"vec3f.h"
 
+=======
+>>>>>>> 11b0f0c58315d51bcb9fd2ab3274bb043acac812
